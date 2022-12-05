@@ -1,0 +1,115 @@
+body {
+  background-color: #12161c;
+  padding: 0px;
+}
+
+h1, h2, p, main li {
+  color: white;
+  font-family: lato, sans-serif;
+}
+
+li {
+  font-family: lato, sans-serif;
+}
+
+header h1 {
+text-align: center;
+  }
+
+h1:hover {
+  color: red;
+  transition: 1s;
+  }
+
+  table {
+    color: white;
+  }
+
+nav {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  font-weight: bold;
+}
+
+nav li a {
+  text-decoration: none;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #12161c;
+}
+
+.headerimg {
+  width: 500px;
+  max-width: 80%;
+  display: block;
+  margin: auto;
+}
+
+img.cage {
+  max-width: 50%;
+  width: 400px;
+  display: block;
+  margin: auto;
+}
+
+footer {
+  background-color: white;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  color: black;
+  margin-left: 10px;
+}
+
+/*Responsive media queries*/
+@media all and (min-width: 320px) and (max-width: 780px) {
+
+
+}
+
+@media all and (min-width: 781px) and (max-width: 992px) {
+
+}
+
+@media all and (min-width: 993px) {
+
+img.cage {
+  display: inline;
+}
+
+section.cageimg {
+  float: left;
+  width: 50%;
+}
+
+section#tracklist {
+  float: right;
+  width: 50%;
+}
+
+section#facts {
+  clear: both;
+}
+
+article#twocollumn {
+  padding-top: 30px;
+}
+
+}
